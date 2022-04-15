@@ -17,11 +17,11 @@ import smtplib
 
 
 # load environment
-# load_dotenv("E:/Day-54-Python/blog-upgraded/.env")
+load_dotenv("E:/Day-54-Python/blog-upgraded/.env")
 # Initializing the app
 app = Flask(__name__)
 # Initialize the secret key
-app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
+app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 # Ckeditor
 app.config['CKEDITOR_PKG_TYPE'] = 'standard'
 ckeditor = CKEditor(app)
@@ -43,7 +43,7 @@ login_manager.login_view = 'login'
 today = dt.datetime.now().year
 full_date = dt.datetime.now()
 EMAIL = "fenixfirea380@gmail.com"
-PASSWORD = os.environ.get("PASSWORD")
+PASSWORD = os.getenv("PASSWORD")
 
 # Initialize instance of Gravatar class (used to give profile pic to comments)
 gravatar = Gravatar(app,
