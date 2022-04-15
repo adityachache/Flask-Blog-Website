@@ -17,7 +17,7 @@ import smtplib
 
 
 # load environment
-load_dotenv("E:/Day-54-Python/blog-upgraded/.env")
+# load_dotenv("E:/Day-54-Python/blog-upgraded/.env")
 # Initializing the app
 app = Flask(__name__)
 # Initialize the secret key
