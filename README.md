@@ -5,5 +5,4 @@ website is deployed on heroku
 
 
 See Implementation - 
-https://random-bloggr.herokuapp.com/
-
+https://flask-blog-website-006g.onrender.com/
