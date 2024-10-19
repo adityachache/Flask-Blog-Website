@@ -1,7 +1,6 @@
 # Flask-Blog-Website
-A Blog website with user authentication created using flask. Frontend is implemented with html, css(bootstrap) and javascript.
-It's a premade template picked up from a website. Flask is used for backend along with postgresql for database.
-website is deployed on heroku
+A Blog website with user authentication created in Python. The front-end is a bootstrap template. Flask is used for the back-end along with Postgresql for the database.
+website is deployed on Render.
 
 
 See Implementation - 
